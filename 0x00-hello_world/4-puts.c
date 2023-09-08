@@ -3,8 +3,8 @@
  * *main - comment
  * Return - Always 0(succes)
  * */
-main()
+int main()
 {
-	puts ("Programming is like a multilingual puzzle");
+	puts("Programming is like a multilingual puzzle");
 	return (0);
 }
