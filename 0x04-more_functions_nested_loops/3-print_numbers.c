@@ -1,15 +1,19 @@
 #include "main.h"
+
 /**
- * print_numbers - The prototype
- * Return: always eturn 0
+ *print_numbers - function that prints numbers 1 to 9
+ * Return: 0 as success
  */
 void print_numbers(void)
 {
-int i;
+	int c;
 
-for (i = 0; i <= 9; i++)
-{
-_putchar(i + '0');
-}
-_putchar('\n');
+	c = 0;
+
+	while (c < 10)
+	{
+	_putchar(c + '0');
+	c++;
+	}
+	_putchar('\n');
 }
