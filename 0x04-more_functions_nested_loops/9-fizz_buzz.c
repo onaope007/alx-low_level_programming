@@ -4,8 +4,10 @@
  * @i: the parameter of the function
  * Return: the value 0 if success
  */
-int main(int i)
+int main(void)
 {
+int i;
+
 for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0)
