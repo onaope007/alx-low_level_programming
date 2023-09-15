@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - the function used to print the program
- * @i: the parameter of the function
  * Return: the value 0 if success
  */
 int main(void)
